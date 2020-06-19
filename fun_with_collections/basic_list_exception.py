@@ -3,7 +3,9 @@ Program: basic_list_exception.py
 Author: Daniel Meeker
 Date: 6/19/2020
 
-
+This program defines two functions that work in conjunction
+to create a list. The make_list function will now raise
+exceptions if the input is not in range of 1-50.
 """
 
 
