@@ -1,3 +1,12 @@
+"""
+Program: test_sort_and_search_list.py
+Author: Daniel Meeker
+Date: 6/19/2020
+
+This program defines two functions, one for
+searching lists and another for sorting
+lists. This file tests the functions.
+"""
 import unittest
 from unittest.mock import patch
 import fun_with_collections.sort_and_search_list as sort_and_search_list
