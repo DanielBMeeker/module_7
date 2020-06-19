@@ -16,9 +16,9 @@ def make_list():
     for x in range(3):
         user_input = get_input()
         if user_input.isalpha():
-            # used 'isalpha()' rather than 'not isnumeric()' to
-            # account for the possibility of negative numbers
             raise ValueError("Input is not a number")
+        elif not 0 < int(user_input) <= 50:
+            raise ValueError("Input not in range 1-50")
         else:
             user_input_list.append(int(float(user_input)))
     return user_input_list
