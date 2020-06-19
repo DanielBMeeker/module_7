@@ -9,7 +9,7 @@ invalid_value_searched = 6
 
 class MyTestCase(unittest.TestCase):
     def test_search_in_list(self):
-        self.assertEqual(sort_and_search_list.search_list(list_searched, value_searched), 3)
+        self.assertEqual(sort_and_search_list.search_list(list_searched, value_searched), 2)
 
     def test_search_not_in_list(self):
         self.assertEqual(sort_and_search_list.search_list(list_searched, invalid_value_searched), -1)

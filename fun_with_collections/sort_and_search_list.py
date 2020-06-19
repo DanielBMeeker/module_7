@@ -15,4 +15,7 @@ def search_list(a_list, value):
     :param value: The value being searched for in the list.
     :return: Index of object if in list. Returns -1 if not in list
     """
-    pass
+    if value not in a_list:
+        return -1
+    else:
+        return a_list.index(value)
