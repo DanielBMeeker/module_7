@@ -1,0 +1,8 @@
+('student_name = Daniel Meeker', '25 ')
+('student_name = Andy', '30 ')
+('student_name = Daniel Meeker', '35 36 33 ')
+('student_name = Andy', '40 29 33 ')
+('student_name = Daniel', '88 ')
+('student_name = Adam', '81 ')
+('stdent_name = Erin', '83 ')
+('student_name = Georgia', '85 ')
