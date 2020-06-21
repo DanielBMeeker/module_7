@@ -12,10 +12,10 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(ssa.search_array(array_searched, value_searched), 2)
 
     def test_search_not_in_list(self):
-        self.assertEqual(ssa.search_list(array_searched, invalid_value_searched), -1)
+        self.assertEqual(ssa.search_array(array_searched, invalid_value_searched), -1)
 
     def test_sort_list(self):
-        self.assertEqual(ssa.sort_list(array_to_sort), array_searched)
+        self.assertEqual(ssa.sort_array(array_to_sort), array_searched)
 
 
 if __name__ == '__main__':
